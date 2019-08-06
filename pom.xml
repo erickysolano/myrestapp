@@ -7,7 +7,23 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>myrestapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  
   <dependencies>
+  
+  <!-- Dependencias do jersey para REST -->
+	 <dependency>
+	  <groupId>org.glassfish.jersey.containers</groupId>
+	  <artifactId>jersey-container-servlet</artifactId>
+	  <version>2.0</version>
+	 </dependency>
+	  
+	 <dependency>
+	  <groupId>org.glassfish.jersey.media</groupId>
+	  <artifactId>jersey-media-moxy</artifactId>
+	  <version>2.0</version>
+	 </dependency>
+
+  
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
